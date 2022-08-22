@@ -1,0 +1,80 @@
+:root{
+
+}
+/* RESET */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+.container-fluid{
+  padding:0 !important;
+}
+.row > *{
+  padding: 0;
+}
+.row{
+  margin:0 !important;
+}
+h1,h2,h3,h4{
+	margin:0 !important;
+}
+p{
+	margin:0 !important;
+}
+ul{
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden !important;
+  background-color: black !important;
+}
+/* RESET */
+
+/* BARRA PROGRESO */
+#progresoBarra{
+	position: fixed !important;
+	width: 100% !important;
+	height: 10px !important;
+}
+#progresoBarra #barra{
+	width: 0%;
+	height: 100% !important;
+	background-color: yellow !important;
+
+}
+
+#primero, #segundo, #tercero, #cuarto{
+	width: 100% !important;
+	height: 100vh !important;
+}
+#primero .cont, #segundo .cont, #tercero .cont, #cuarto .cont{
+	width: 100% !important;
+	height: 100% !important;
+}
+#primero .cont h1, #segundo .cont h1, #tercero .cont h1, #cuarto .cont h1{
+	font-size: 10rem !important;
+}
+#primero{
+	background-color: black !important;
+	color: white !important;
+}
+#segundo{
+	background-color: red !important;
+	color:  white !important;
+}
+#tercero{
+	background-color: blue !important;
+	color: white !important;
+}
+#cuarto{
+	background-color: green !important;
+	color: white !important;
+}
